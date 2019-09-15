@@ -1,0 +1,280 @@
+/* --  Breakpoints -- */
+/* -- Fonts -- */
+/* -- Colors -- */
+body {
+  font-size: 16px;
+}
+
+h1, h2, h3 {
+  font-family: "Yeseva One", cursive;
+  text-align: center;
+}
+
+#home-top {
+  height: 750px;
+  padding: 10em 0;
+  background-image: url(../images/pasta-basil.png);
+  background-size: cover;
+  background-position: right center;
+}
+
+@media screen and (max-width: 992px) {
+  #home-top {
+    height: 650px;
+    padding: 6em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #home-top {
+    height: 550px;
+    padding: 4em;
+  }
+}
+
+#home-top h1 {
+  font-size: 5.25em;
+  text-align: center;
+  text-transform: lowercase;
+  color: #FFF;
+}
+
+@media screen and (max-width: 992px) {
+  #home-top h1 {
+    font-size: 4.5em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #home-top h1 {
+    font-size: 3.5em;
+  }
+}
+
+#home-top #divider-header {
+  width: 232px;
+  height: 43px;
+  margin-bottom: 25px;
+}
+
+#home-top .button {
+  display: inline-block;
+  width: 230px;
+  height: 60px;
+  color: #FFF;
+  font-size: 1.125em;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 60px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+@media screen and (max-width: 768px) {
+  #home-top .button {
+    width: 200px;
+    height: 45px;
+    font-size: 1em;
+    line-height: 45px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #home-top .button {
+    width: 100%;
+    height: 45px;
+    margin-right: 0 !important;
+    margin-bottom: 1em;
+    font-size: 1em;
+    line-height: 45px;
+  }
+}
+
+#home-top .button:first-child {
+  margin-right: 20px;
+}
+
+#home-top .button.black {
+  background: rgba(0, 0, 0, 0.6);
+  border-color: #000;
+}
+
+#home-top .button.white {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #FFF;
+}
+
+#home-about {
+  padding: 6em;
+  background-image: url(../images/background-about.png);
+  background-size: cover;
+}
+
+@media screen and (max-width: 992px) {
+  #home-about {
+    padding: 3em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #home-about .col-lg-6:first-child {
+    margin-bottom: 2em;
+  }
+}
+
+#home-about h2 {
+  color: #CC9900;
+  font-size: 2.25em;
+}
+
+#home-about #divider-about {
+  width: 247px;
+  height: 24px;
+  margin-bottom: 1em;
+}
+
+#home-about p {
+  margin-bottom: 3em;
+  text-align: center;
+  line-height: 1.5;
+}
+
+#home-reviews {
+  height: 740px;
+  padding: 5.2em;
+  background-image: url(../images/background-reviews.jpg);
+}
+
+@media screen and (max-width: 992px) {
+  #home-reviews {
+    height: 600px;
+    padding: 3em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #home-reviews {
+    height: 500px;
+    padding: 2em;
+  }
+}
+
+#home-reviews .quote-block {
+  padding: 4.6em;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 992px) {
+  #home-reviews .quote-block {
+    padding: 3.8em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #home-reviews .quote-block {
+    padding: 2.5em;
+  }
+}
+
+#home-reviews .quote-block h2 {
+  color: #FFF;
+}
+
+#home-reviews .quote-block img {
+  width: 247px;
+  height: 24px;
+  margin-bottom: 1.5em;
+}
+
+#home-reviews .quote-block p {
+  text-align: center;
+}
+
+#home-reviews .quote-block p.quote {
+  position: relative;
+  color: #DDE0DF;
+  font-size: 1.563em;
+  line-height: 1.8;
+}
+
+@media screen and (max-width: 992px) {
+  #home-reviews .quote-block p.quote {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #home-reviews .quote-block p.quote {
+    font-size: 1em;
+  }
+}
+
+#home-reviews .quote-block p.quote:before {
+  content: open-quote;
+  position: absolute;
+  top: .5em;
+  left: -.7em;
+  color: #F2F4F4;
+  font-size: 3em;
+  font-family: serif;
+  line-height: 0;
+}
+
+#home-reviews .quote-block p.source {
+  color: #FFF;
+}
+
+footer {
+  padding: 3.5em 0;
+  background-color: #191919;
+  color: #FFF;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  footer .col-md-4 {
+    margin-bottom: 2em;
+  }
+  footer .col-md-4:last-child {
+    margin-bottom: 0;
+  }
+}
+
+footer h3 {
+  margin-bottom: 1em;
+  font-size: 1.313em;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer .divider-image {
+  width: 199px;
+  height: 19px;
+  margin-bottom: 1em;
+}
+
+footer .icon-block {
+  margin-top: 3em;
+}
+
+footer .icon-block a {
+  color: #FFF;
+  margin-right: 5px;
+}
+
+footer .icon-block a:last-child {
+  margin-right: 0;
+}
+
+footer .icon-block span {
+  margin-right: 5px;
+}
+
+footer .icon-block span:last-child {
+  margin-right: 0;
+}
+/*# sourceMappingURL=site.css.map */

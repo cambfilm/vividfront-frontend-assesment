@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Lambda - Home</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Gentium+Book+Basic|Lato|Yeseva+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/site.css">
+
+    <script src="https://kit.fontawesome.com/a99891b001.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+    <section id="home-top">
+        <div class="container-fluid align-middle">
+            <div class="row no-gutters justify-content-md-center">
+                <div class="col col-md-10">
+                    <h1>The Right Ingredients for the Right Food</h1>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <img id="divider-header" src="images/divider-header-white.png">
+            </div>
+            <div class="row justify-content-center">
+                <a id="reviews-link" href="#" class="button black">See Reviews</a>
+                <a href="#" class="button white">See the Menu</a>
+            </div>
+            <script>
+                $(function() {
+                    $('#reviews-link').click(function() {
+                        var reviews_offset_top = $('#home-reviews').offset().top;
+                        $('html, body').animate({
+                            scrollTop: reviews_offset_top
+                        }, 400);
+                    });
+                });
+            </script>
+        </div>
+    </section>
+    <section id="home-about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2>Just the right food</h2>
+                    <div class="d-flex justify-content-center">
+                        <img id="divider-about" src="images/divider-about-yellow.png">
+                    </div>
+                    <p>If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</p>
+                    <div class="d-flex justify-content-center">
+                        <img src="images/cook.png" class="img-fluid" title="Chef">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex justify-content-center">
+                        <img src="images/dish.png" class="img-fluid" title="Steak dish">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="home-reviews">
+        <div class="container">
+            <div class="row justify-content-md-center">
+                <div class="col col-md-10">
+                    <div class="quote-block">
+                        <h2>Guest Reviews</h2>
+                        <div class="d-flex justify-content-center">
+                            <img src="images/divider-reviews-white.png">
+                        </div>
+                        <p class="quote">If you’ve been to one of our restaurants, you’ve seen – and tasted – what keeps our customers coming back for more. Perfect materials and freshly baked food, delicious Lambda cakes,  muffins, and gourmet coffees make us hard to resist! Stop in today and check us out!</p>
+                        <p class="source">- food inc, New York</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col col-md-4">
+                    <h3>About Us</h3>
+                    <div class="d-flex justify-content-center">
+                        <img class="divider-image" src="images/divider-footer-grey.png">
+                    </div>
+                    <p>Lambda's new and expanded Chelsea location represents a truly authentic <strong>Greek</strong> patisserie, featuring breakfasts of fresh croissants and steaming bowls of café.</p>
+                    <p>Lamda, the best restaurant in town.</p>
+                </div>
+                <div class="col col-md-4">
+                    <h3>Opening Hours</h3>
+                    <div class="d-flex justify-content-center">
+                        <img class="divider-image" src="images/divider-footer-grey.png">
+                    </div>
+                    <p><strong>Mon-Thur:</strong> 7:00am-8:00pm</p>
+                    <p><strong>Fri-Sun:</strong> 7:00am010:00pm</p>
+                    <div class="icon-block">
+                        <span class="fab fa-cc-amex"></span>
+                        <span class="fab fa-cc-paypal"></span>
+                        <span class="fab fa-cc-visa"></span>
+                        <span class="fab fa-cc-discover"></span>
+                    </div>
+                </div>
+                <div class="col col-md-4">
+                    <h3>Our Location</h3>
+                    <div class="d-flex justify-content-center">
+                        <img class="divider-image" src="images/divider-footer-grey.png">
+                    </div>
+                    <p>19th Paradise Street Sitia</p>
+                    <p>128 Meserole Avenue</p>
+                    <div class="icon-block">
+                        <a href="https://facebook.com/lambda-restaraunt"><span class="fab fa-facebook-f"></span></a>
+                        <a href="https://youtube.com/lambda-restaraunt"><span class="fab fa-youtube-square"></span></a>
+                        <a href="https://twitter.com/lambda-restaraunt"><span class="fab fa-twitter"></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
